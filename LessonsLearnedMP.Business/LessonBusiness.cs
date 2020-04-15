@@ -27,6 +27,10 @@ namespace Suncor.LessonsLearnedMP.Business
         {
             _context = context;
         }
+        public LessonBusiness()
+        {
+            
+        }
 
         /// <summary>
         /// Admin users have the option to view disabled lessons
