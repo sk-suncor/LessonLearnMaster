@@ -944,7 +944,8 @@ namespace Suncor.LessonsLearnedMP.Business
             //Steinke,Devin
             //Devin Steinke
             //MIGRATION
-                        
+
+
             List<RoleUser> submittedUsers = _context.LessonHistories
                 .Where(x => x.NewStatusId == statusNew)
                 .GroupBy(u => u.CreateUser)
